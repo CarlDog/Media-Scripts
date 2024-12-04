@@ -104,7 +104,7 @@ for lib in LIB_ARRAY:
 
         if not is_movie:
             print("the script hasn't been tested with non-movie libraries, skipping.")
-            # continue
+            continue
 
         lib_size = the_lib.totalViewSize()
         
